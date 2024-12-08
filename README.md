@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#eCommerce Website - UX/UI Hackathon Project
 
-## Getting Started
+This project is a UX/UI Hackathon Project for the 2nd quarter of the GIAIC course. The objective of the hackathon was to design and develop a fully functional, user-friendly eCommerce website. The website includes key pages such as Home, Blog, Contact, Shop, and Checkout, and is fully responsive across devices.
 
-First, run the development server:
+#Features
+Home Page: The landing page that welcomes users and provides quick access to the Shop, Blog, Contact, and Checkout pages.
+Shop Page: A page showcasing products for sale, allowing users to browse and navigate through different items.
+Blog Page: A dynamic blog section where users can read posts related to the products and the business.
+Contact Page: A page with the business's contact information, including an email address for inquiries.
+Checkout Page: A page where users can review their cart and proceed with the purchase.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#Technologies Used
+Next.js: A React framework that enables server-side rendering and static site generation.
+Tailwind CSS: A utility-first CSS framework for creating responsive and customizable designs.
+TypeScript: A typed superset of JavaScript that improves the development experience with type checking and autocompletion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#How to Clone the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##Follow the steps below to clone and run this project locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the Repository
+Use Git to clone the repository to your local machine:
+##git clone https://github.com/yourusername/ecommerce-website.git
 
-## Learn More
+3. Navigate to the Project Directory
+Move to the project folder:
+##cd ecommerce-website
 
-To learn more about Next.js, take a look at the following resources:
+3. Install Dependencies
+Install the required dependencies for the project:
+##npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Run the Development Server
+Start the development server:
+##npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This will run the application at http://localhost:3000. Open it in your browser to view the website.
 
-## Deploy on Vercel
+#Contributing
+Feel free to fork the repository, suggest improvements, or report issues. Pull requests are always welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
