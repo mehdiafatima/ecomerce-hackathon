@@ -17,7 +17,7 @@ const Furniture = () => {
     
     <div className="py-8">
       <Image
-        src="/Furniture.png" // Path to your image
+        src="/furniture.png" // Path to your image
         alt="Descriptive Alt Text"
         width={1100} // Set the appropriate width
         height={600} // Set the appropriate height

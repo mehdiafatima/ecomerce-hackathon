@@ -39,7 +39,7 @@ const OurProducts = () => {
       price: "Rp 500.000",
       originalPrice: "",
       discount: "New",
-      image: "/images.png",
+      image: "/Iamages.png",
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const OurProducts = () => {
       price: "Rp 1.500.000",
       originalPrice: "",
       discount: "",
-      image: "/images 5.png",
+      image: "/Images 5.png",
     },
     {
       id: 6,
