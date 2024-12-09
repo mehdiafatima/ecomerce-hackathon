@@ -21,7 +21,7 @@ const BrowseRange = () => {
   ];
 
   return (
-    <section className="py-10 bg-white">
+    <section className="py-2 bg-white mt-8 ">
       <div className="container mx-auto px-4">
         {/* Section Heading */}
         <div className="text-center mb-10">
@@ -34,7 +34,7 @@ const BrowseRange = () => {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => (
             <div
               key={category.id}
@@ -45,10 +45,10 @@ const BrowseRange = () => {
                 alt={category.title}
                 width={200} // Reduced width
                 height={100} // Reduced height for a thinner appearance
-                className="w-full h-3/4 object-contain lg:mr-20" // Prevent cropping
+                className="w-full h-3/4 object-contain lg:mr-20 -mb-0.5" // Prevent cropping
               />
               <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-lg font-semibold text-gray-800 -mb-5 ">
                   {category.title}
                 </h3>
               </div>

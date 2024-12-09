@@ -92,7 +92,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-200 pt-4">
           <p className="text-sm text-black ">
-            © 2023 Funiro. All rights reserved.
+            © 2024 Funiro. All rights reserved.
           </p>
         </div>
       </div>

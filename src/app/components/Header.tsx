@@ -55,12 +55,12 @@ const Header = () => {
 
         {/* Icons (Desktop) */}
         <div className="hidden md:flex space-x-4 text-gray-600 gap-3">
-          <Link href="/checkout">
+          <Link href="/login">
             <FaUser className="text-lg hover:text-black cursor-pointer" />
           </Link>
           <FaSearch className="text-lg hover:text-black cursor-pointer" />
           <FaHeart className="text-lg hover:text-black cursor-pointer" />
-          <FaShoppingCart className="text-lg hover:text-black cursor-pointer" />
+          <Link href="/cartpage"><FaShoppingCart className="text-lg hover:text-black cursor-pointer" /></Link>
         </div>
       </div>
 
@@ -80,12 +80,12 @@ const Header = () => {
             Contact
           </a>
           <div className="flex justify-center space-x-4 mt-4 text-gray-600 gap-3">
-            <Link href="/checkout">
-              <FaUser className="text-lg hover:text-black cursor-pointer" />
-            </Link>
+            
+           <Link href="/login"> <FaUser className="text-lg hover:text-black cursor-pointer" /></Link>  
+          
             <FaSearch className="text-lg hover:text-black cursor-pointer" />
             <FaHeart className="text-lg hover:text-black cursor-pointer" />
-            <FaShoppingCart className="text-lg hover:text-black cursor-pointer" />
+            <Link href="/cartpage"><FaShoppingCart className="text-lg hover:text-black cursor-pointer" />  </Link>
           </div>
         </nav>
       </div>

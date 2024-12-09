@@ -80,11 +80,11 @@ const OurProducts = () => {
   ];
 
   return (
-    <section className="py-8 bg-white lg:px-20">
+    <section className="py-8 bg-white lg:px-20 ">
     <div className="container mx-auto px-4">
       {/* Section Heading */}
       <div className="text-center mb-8">
-        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800">
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 -mt-20">
           Our Products
         </h2>
       </div>

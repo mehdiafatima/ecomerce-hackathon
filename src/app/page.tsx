@@ -5,6 +5,8 @@ import OurProducts from './components/OurProducts';
 import Room from './components/Rooms'
 import Furniture from './components/Furniture';
 
+
+
 const Home = () => {
   return (
     <div>
