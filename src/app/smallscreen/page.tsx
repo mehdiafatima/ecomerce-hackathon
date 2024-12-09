@@ -77,7 +77,7 @@ const SmallScreenCart = () => {
 
         
       {/* Feature Section */}
-      <div className="bg-[#FDF8F2] py-12 px-6 mb-10 -ml-20 -mr-4">
+      <div className="bg-[#FDF8F2] py-12 px-6 mb-10 -ml-20 -mr-4 mb-40">
         <div className="w- px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center md:text-left">
           {/* Feature 1 */}
           <div className="flex items-center gap-x-3 justify-center md:justify-start ml-12">
